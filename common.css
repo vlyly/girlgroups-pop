@@ -1,0 +1,174 @@
+@font-face {
+  font-family: "ELAND_Choice_M";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/ELAND_Choice_M.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "ELAND_Choice_M";
+}
+
+img {
+  display: block;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+option:focus,
+select:focus,
+button:focus,
+input:focus {
+  outline: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+/****/
+
+.wrapper {
+  width: 100%;
+}
+
+.content_wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+main {
+  max-width: 1190px;
+}
+
+.searchBar_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 60px;
+}
+
+.search_option,
+.search_input {
+  font-family: "ELAND_Choice_M";
+  height: 30px;
+  border-radius: 5px;
+}
+
+.search_input {
+  width: 400px;
+  margin-left: 15px;
+  border: none;
+  text-indent: 1em;
+}
+
+.autocomplete_container {
+  position: absolute;
+  top: 45px;
+  z-index: 99;
+  margin-left: 15px;
+}
+
+.autocomplete_list {
+  width: 400px;
+  border-radius: 0 0 7px 7px;
+  /* display: none; */
+  background-color: cornflowerblue;
+}
+
+.autocomplete_list_item {
+  /* height: 30px; */
+  font-size: 13.3333px;
+  text-indent: 1em;
+  line-height: 30px;
+}
+
+/**main**/
+
+main {
+  margin: 0 auto;
+  padding: 200px 0;
+}
+
+.main_container {
+}
+
+.song_title {
+  display: block;
+  text-align: center;
+}
+
+.youtube_mv {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  height: 500px;
+}
+
+.song_info_menu {
+  display: flex;
+}
+
+.song_info_container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.song_info_detail_items_container {
+  padding: 30px 0;
+  background-color: white;
+}
+
+.song_info_detail_items_container:first-of-type {
+  margin-bottom: 50px;
+}
+
+.song_info_menu_item {
+  width: 33.3333%;
+  height: 50px;
+}
+
+.song_info_menu_item_button {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border: none;
+  font-family: "ELAND_Choice_M";
+}
+
+.song_info_detail_item > dt,
+.song_info_detail_item > dd {
+  display: inline-block;
+}
+
+.song_info_detail_item > dt {
+  width: 100px;
+}
+
+.lyrics {
+  line-height: 1.3333em;
+}

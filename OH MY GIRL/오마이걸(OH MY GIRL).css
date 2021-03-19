@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Cafe24Oneprettynight";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MapoFlowerIsland";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.wrapper_OH_MY_GIRL {
+  background-color: rgb(255, 233, 233);
+}
+
+.header_title_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.header_image_OH_MY_GIRL {
+  position: relative;
+  top: 30px;
+  width: 100%;
+}
+
+.header_logo_OH_MY_GIRL {
+  position: absolute;
+  width: 20%;
+  height: auto;
+}
+
+.song_title_OH_MY_GIRL_1 {
+  font-size: 28px;
+  font-family: "MapoFlowerIsland", serif;
+}
+
+.button_hover_backgroundColor_OH_MY_GIRL :hover {
+  background-color: rgb(240, 198, 222);
+  color: white;
+  transition: background-color 200ms;
+}
+
+@media screen and (max-width: 1024px) {
+  .header_image_OH_MY_GIRL {
+    top: 0;
+  }
+}

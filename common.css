@@ -96,7 +96,6 @@ main {
 .autocomplete_list {
   width: 400px;
   border-radius: 0 0 7px 7px;
-  /* display: none; */
   background-color: cornflowerblue;
 }
 
@@ -114,9 +113,6 @@ main {
   padding: 150px 0;
 }
 
-.main_container {
-}
-
 .song_title {
   display: block;
   text-align: center;
@@ -129,60 +125,74 @@ main {
   height: 500px;
 }
 
-.song_info_menu {
-  display: flex;
-}
-
-.song_info_container {
+.info_container {
   width: 70%;
   margin: 0 auto;
-}
-
-.song_info_detail_items_container {
-  padding: 30px 0;
+  border-radius: 20px;
   background-color: white;
 }
 
-.song_info_detail_items_container:first-of-type {
-  margin-bottom: 50px;
+.info_menu {
+  display: flex;
 }
 
-.song_info_menu_item {
+.info_menu_item {
   width: 33.3333%;
   height: 50px;
 }
 
-.song_info_menu_item_button {
+.info_menu_item_button {
   width: 100%;
   height: 100%;
-  background-color: white;
   border: none;
+  border-radius: 20px 20px 0 0;
+  background-color: white;
   font-family: "ELAND_Choice_M";
+  font-weight: 700;
 }
 
-.song_info_detail_item > dt,
-.song_info_detail_item > dd {
-  display: inline-block;
+.song_info_detail_items_container {
+  padding: 30px 50px;
+}
+
+.song_info_detail_item {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.song_info_detail_item:not(.lyrics) {
+  display: flex;
 }
 
 .song_info_detail_item > dt {
   width: 100px;
+  font-weight: 700;
 }
 
-.lyrics {
-  line-height: 1.3333em;
+.lyrics > dt {
+  /* margin-top: 30px; */
+}
+
+.lyrics > dd {
+  margin: 50px auto;
+  font-size: 14px;
+  line-height: 1.5em;
+  text-align: center;
 }
 
 /**footer**/
 
 footer {
-  padding: 80px 0;
+  background-color: rgb(250, 225, 228);
 }
 
 .footer_container {
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 70%;
   margin: 0 auto;
+  padding: 50px 0;
 }
 
 .footer_official_website {
@@ -194,38 +204,43 @@ footer {
 }
 
 .footer_SNS_company_website_container {
-  margin-bottom: 30px;
+  padding: 0 80px;
+  color: rgb(107, 107, 107);
 }
 
-.footer_SNS_container {
+.footer_SNS_items {
   -moz-column-count: 2;
   -webkit-column-count: 2;
   column-count: 2;
-  padding: 0 70px;
-  margin-bottom: 30px;
-}
-
-.footer_SNS {
-  display: inline-block;
-  width: 25px;
-  height: 25px;
-  font-size: 25px;
-  text-align: center;
-}
-
-.footer_SNS > img {
-  width: 25px;
-  height: 25px;
-  border-radius: 7px;
+  width: fit-content;
+  margin: 0 auto 10px auto;
 }
 
 .footer_SNS_item {
   display: flex;
-  width: 50%;
+  align-items: center;
+  width: 150px;
+  margin-bottom: 3px;
+  font-size: 12px;
 }
 
-.footer_SNS_item {
-  column-width: 50%;
+.footer_SNS_item > dt {
+  width: 60px;
+  margin-right: 10px;
+}
+
+.footer_SNS {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.footer_SNS > img {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
 }
 
 .footer_SNS_twitter > i {
@@ -247,7 +262,7 @@ footer {
     #fcb045
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-radius: 5px;
-  font-size: 21px;
+  font-size: 16px;
   padding: 2px;
 }
 
@@ -264,12 +279,11 @@ footer {
 }
 
 .footer_company_website_container {
-  padding: 0 70px;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .footer_company_website_container > span {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
 }
 

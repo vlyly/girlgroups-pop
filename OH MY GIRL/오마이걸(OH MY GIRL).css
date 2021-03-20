@@ -36,11 +36,12 @@
 
 .header_logo_OH_MY_GIRL {
   position: absolute;
-  width: 20%;
+  width: 25%;
   height: auto;
 }
 
 .song_title_OH_MY_GIRL_1 {
+  margin-bottom: 50px;
   font-size: 28px;
   font-family: "MapoFlowerIsland", serif;
 }

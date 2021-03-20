@@ -111,7 +111,7 @@ main {
 
 main {
   margin: 0 auto;
-  padding: 200px 0;
+  padding: 150px 0;
 }
 
 .main_container {
@@ -124,7 +124,7 @@ main {
 
 .youtube_mv {
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 50px auto;
   width: 70%;
   height: 500px;
 }
@@ -171,4 +171,108 @@ main {
 
 .lyrics {
   line-height: 1.3333em;
+}
+
+/**footer**/
+
+footer {
+  padding: 80px 0;
+}
+
+.footer_container {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.footer_official_website {
+  width: 15%;
+}
+
+.footer_logo_image {
+  width: 100%;
+}
+
+.footer_SNS_company_website_container {
+  margin-bottom: 30px;
+}
+
+.footer_SNS_container {
+  -moz-column-count: 2;
+  -webkit-column-count: 2;
+  column-count: 2;
+  padding: 0 70px;
+  margin-bottom: 30px;
+}
+
+.footer_SNS {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.footer_SNS > img {
+  width: 25px;
+  height: 25px;
+  border-radius: 7px;
+}
+
+.footer_SNS_item {
+  display: flex;
+  width: 50%;
+}
+
+.footer_SNS_item {
+  column-width: 50%;
+}
+
+.footer_SNS_twitter > i {
+  color: #1da1f2;
+}
+
+.footer_SNS_instagram {
+  background: #833ab4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #833ab4,
+    #fd1d1d,
+    #fcb045
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #833ab4,
+    #fd1d1d,
+    #fcb045
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 5px;
+  font-size: 21px;
+  padding: 2px;
+}
+
+.footer_SNS_instagram > i {
+  color: white;
+}
+
+.footer_SNS_facebook > i {
+  color: #1877f2;
+}
+
+.footer_SNS_youtube > i {
+  color: #ff0000;
+}
+
+.footer_company_website_container {
+  padding: 0 70px;
+  font-size: 12px;
+}
+
+.footer_company_website_container > span {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.footer_company_website_container > a {
+  margin-left: 10px;
 }

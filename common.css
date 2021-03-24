@@ -75,9 +75,10 @@ main {
 
 .search_option,
 .search_input {
-  font-family: "ELAND_Choice_M";
   height: 30px;
   border-radius: 5px;
+  background-color: white;
+  font-family: "ELAND_Choice_M";
 }
 
 .searchArea_container {

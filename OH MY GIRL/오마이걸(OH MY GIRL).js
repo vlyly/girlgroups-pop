@@ -32,6 +32,9 @@ function control_album_information() {
 }
 
 function control_lyrics() {
+  lyrics_control_button.title === "가사 더 보기"
+    ? (lyrics_control_button.title = "가사 접기")
+    : (lyrics_control_button.title = "가사 더 보기");
   lyrics.classList.toggle("hidden_lyrics");
   lyrics_control_button.firstChild.classList.toggle("fa-chevron-up");
 }

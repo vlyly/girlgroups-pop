@@ -29,6 +29,10 @@ function control_album_information() {
   );
   song_information.style.display = "none";
   album_information.style.display = "";
+
+  lyrics_control_button.title = "가사 더 보기";
+  lyrics.classList.add("hidden_lyrics");
+  lyrics_control_button.firstChild.classList.remove("fa-chevron-up"); //lyrics, lyrics_control_button 초기 상태로 되돌림
 }
 
 function control_lyrics() {

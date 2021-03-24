@@ -161,40 +161,35 @@ main {
   font-weight: 700;
 }
 
-.song_info_detail_items_container {
+.info_detail_items_container {
   padding: 30px 50px;
 }
 
-.song_info_detail_item {
+.info_detail_item {
   font-size: 14px;
   margin-bottom: 8px;
 }
 
-.song_info_detail_item:last-of-type {
+.info_detail_item:last-of-type {
   margin-bottom: 0;
 }
 
-.song_info_detail_item:not(.song_info_detail_item_long_content) {
+.info_detail_item:not(.info_detail_item_long_content) {
   display: flex;
   width: 100%;
 }
 
-.song_info_detail_item > dt {
+.info_detail_item > dt {
   flex-shrink: 0;
   width: 100px;
   font-weight: 700;
 }
 
-.song_info_detail_item:not(.song_info_detail_item_long_content) > dd {
+.info_detail_item:not(.info_detail_item_long_content) > dd {
   display: flex;
-  /* width: 70%; */
 }
 
-/* .song_info_detail_item > dd {
-  width: 100%;
-} */
-
-.song_info_detail_item_long_content > dd {
+.info_detail_item_long_content > dd {
   margin: 50px auto;
   font-size: 14px;
   line-height: 1.5em;
@@ -381,11 +376,11 @@ footer {
     height: 300px;
   }
 
-  .song_info_detail_item > dt {
+  .sinfo_detail_item > dt {
     width: 30%;
   }
 
-  .song_info_detail_item:not(.song_info_detail_item_long_content) > dd {
+  .info_detail_item:not(.info_detail_item_long_content) > dd {
     width: 70%;
   }
 
@@ -441,33 +436,33 @@ footer {
     font-size: 12px;
   }
 
-  .song_info_detail_items_container {
+  .info_detail_items_container {
     padding: 30px 20px;
   }
 
-  .song_info_detail_item:not(.song_info_detail_item_long_content) {
+  .info_detail_item:not(.info_detail_item_long_content) {
     display: block;
   }
 
-  .song_info_detail_item {
+  .info_detail_item {
     margin-bottom: 8px;
     font-size: 12px;
   }
 
-  .song_info_detail_item > dt {
+  .info_detail_item > dt {
     margin-bottom: 5px;
   }
 
-  .song_info_detail_item > dt,
-  .song_info_detail_item > dd {
+  .info_detail_item > dt,
+  .info_detail_item > dd {
     margin-left: 20px;
   }
 
-  .song_info_detail_item_long_content {
+  .info_detail_item_long_content {
     display: block;
   }
 
-  .song_info_detail_item_long_content > dd {
+  .detail_item_long_content > dd {
     margin: 30px 0;
     font-size: 12px;
   }

@@ -15,18 +15,18 @@
                 <header>
                     <div class="header_wrapper">
                         <div class=header_container>
-                            <div id="searchBar_container" class="searchBar_container">
+                            <div id="topBar_container" class="topBar_container">
                                 <select id="search_option" class="search_option">
                                     <option value="Artist">아티스트</option>
                                     <option value="Title">제목</option>
                                 </select>
-                                <div>
+                                <div class="searchArea_container">
                                     <input id="search_input" class="search_input" type="text" placeholder="아티스트명으로 검색" spellcheck="false" autocomplete="off"/>
                                     <div id="autocomplete_container" class="autocomplete_container">
                                         <ul id="autocomplete_list" class="autocomplete_list">
-                                            <!-- <li class="autocomplete_list_item">불꽃놀이-오마이걸(OH MY GIRL)</li>
                                             <li class="autocomplete_list_item">불꽃놀이-오마이걸(OH MY GIRL)</li>
-                                            <li class="autocomplete_list_item">불꽃놀이-오마이걸(OH MY GIRL)</li> -->
+                                            <li class="autocomplete_list_item">불꽃놀이-오마이걸(OH MY GIRL)</li>
+                                            <li class="autocomplete_list_item">불꽃놀이-오마이걸(OH MY GIRL)</li>
                                             <li id="autocomplete_list_item_no_result" class="autocomplete_list_item">일치하는 검색 결과가 없습니다.</li>
                                         </ul>
                                     </div>
@@ -46,7 +46,7 @@
                         <div class="info_container">
                             <div class="info_menu_container">
                                 <ul class="info_menu">
-                                    <li class="info_menu_item button_hover_backgroundColor_OH_MY_GIRL"><button class="info_menu_item_button" type="button">곡 정보</button></li>
+                                    <li class="info_menu_item button_hover_backgroundColor_OH_MY_GIRL"><button class="selected_button_backgroundColor_OH_MY_GIRL" type="button">곡 정보</button></li>
                                     <li class="info_menu_item button_hover_backgroundColor_OH_MY_GIRL"><button class="info_menu_item_button" type="button">아티스트 정보</button></li>
                                     <li class="info_menu_item button_hover_backgroundColor_OH_MY_GIRL"><button class="info_menu_item_button" type="button">수록 앨범</button></li>
                                 </ul>
@@ -119,6 +119,7 @@
                                                 remember me remember me
                                             </dd>
                                         </div>
+                                        <button id="lyrics_control_button" class="lyrics_control_button" type="button" title="가사 더 보기" aria-label="가사 더 보기"><i class="fas fa-chevron-down"></i></button>
                                     </dl>
                                 </div>
                             </div>

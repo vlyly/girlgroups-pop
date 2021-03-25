@@ -61,6 +61,10 @@
   font-weight: 700;
 }
 
+.footer_container_backgroundColor_OH_MY_GIRL {
+  background-color: rgb(250, 225, 228);
+}
+
 @media screen and (max-width: 1024px) {
   .header_image_OH_MY_GIRL {
     top: 0;

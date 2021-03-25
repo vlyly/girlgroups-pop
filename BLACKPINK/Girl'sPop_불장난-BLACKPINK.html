@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie-edge" /><!--해당 브라우저의 최신 렌더링 모드로 작동하게 강제합니다-->
+        <link rel="stylesheet" href="../common.css"/>
+        <link rel="stylesheet" href="BLACKPINK.css"/>
+        <script src="https://kit.fontawesome.com/2884632ff3.js" crossorigin="anonymous"></script>
+        <title>불장난-BLACKPINK</title>
+    </head>
+    <body>
+        <div class="wrapper wrapper_BLACKPINK">
+            <div class="content_wrapper">
+                <header>
+                    <div class="header_wrapper">
+                        <div class=header_container>
+                            <div id="topBar_container" class="topBar_container">
+                                <select id="search_option" class="search_option">
+                                    <option value="Artist">아티스트</option>
+                                    <option value="Title">제목</option>
+                                </select>
+                                <div class="searchArea_container">
+                                    <input id="search_input" class="search_input" type="text" placeholder="아티스트명으로 검색" spellcheck="false" autocomplete="off"/>
+                                    <div id="autocomplete_container" class="autocomplete_container">
+                                        <ul id="autocomplete_list" class="autocomplete_list">
+                                            <!-- <li class="autocomplete_list_item">불꽃놀이-오마이걸(OH MY GIRL)</li>
+                                            <li class="autocomplete_list_item">불꽃놀이-오마이걸(OH MY GIRL)</li>
+                                            <li class="autocomplete_list_item">불꽃놀이-오마이걸(OH MY GIRL)</li> -->
+                                            <li id="autocomplete_list_item_no_result" class="autocomplete_list_item">일치하는 검색 결과가 없습니다.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header_title_container">
+                                <!-- <img class="header_image_BLACKPINK" src="https://malaysia-grlk5lagedl.stackpathdns.com/production/malaysia/images/1576209625529037-Blackpink-jalouse62.jpg?w=1920&h=800&fit=crop&crop=faces&auto=%5B%22format%22%2C%20%22compress%22%5D&cs=srgb" alt="header_image"/> -->
+                                <img class="header_image_BLACKPINK" src="https://i.pinimg.com/originals/9c/fd/79/9cfd796f12b791812a539fe21295b761.jpg" alt="header_image"/>
+                                <img class="header_logo_BLACKPINK" src="https://cdn.freelogovectors.net/wp-content/uploads/2020/08/blackpinklogo.png" alt="logo_image"/>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <main>
+                    <div class="main_container">
+                        <h3 class="song_title song_title_BLACKPINK_1">불장난</h3>
+                        <iframe class="youtube_mv" src="https://www.youtube.com/embed/9pdj4iJD08s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="info_container">
+                            <div class="info_menu_container">
+                                <ul class="info_menu">
+                                    <li class="info_menu_item button_hover_backgroundColor_BLACKPINK"><button id="song_information_button" class="selected_button_backgroundColor_BLACKPINK info_menu_item_button" type="button">곡 정보</button></li>
+                                    <li class="info_menu_item button_hover_backgroundColor_BLACKPINK"><button id="album_information_button" class="info_menu_item_button" type="button">수록 앨범</button></li>
+                                </ul>
+                            </div>
+                            <div class="info_detail_container">
+                                <!--song information-->
+                                <div id="song_information" class="info_detail_items_container">
+                                    <dl class="info_detail_items">
+                                        <div class="info_detail_item">
+                                            <dt>아티스트</dt>
+                                            <dd>BLACKPINK</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>앨범</dt>
+                                            <dd>SQUARE TWO</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>장르</dt>
+                                            <dd>댄스(국내)</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>작곡</dt>
+                                            <dd>TEDDY, R.Tee</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>작사</dt>
+                                            <dd>TEDDY</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>편곡</dt>
+                                            <dd>R.Tee</dd>
+                                        </div>
+                                        <div class="info_detail_item info_detail_item_long_content">
+                                            <dt>가사</dt>
+                                            <dd id="lyrics" class="hidden_lyrics">
+                                                우리 엄만 매일 내게 말했어</br>
+                                                언제나 남자 조심하라고</br>
+                                                사랑은 마치 불장난 같아서</br>
+                                                다치니까 Eh</br>
+                                                엄마 말이 꼭 맞을지도 몰라</br>
+                                                널 보면 내 맘이 뜨겁게 달아올라</br>
+                                                두려움보단 널 향한</br>
+                                                끌림이 더 크니까 Eh</br>
+                                                멈출 수 없는 이 떨림은</br>
+                                                On and on and on</br>
+                                                내 전부를 너란 세상에</br>
+                                                다 던지고 싶어</br>
+                                                Look at me look at me now</br>
+                                                이렇게 넌 날 애태우고 있잖아</br>
+                                                끌 수 없어</br>
+                                                우리 사랑은 불장난</br>
+                                                My love is on fire</br>
+                                                Now burn baby burn</br>
+                                                불장난</br>
+                                                My love is on fire</br>
+                                                So don’t play with me boy</br>
+                                                불장난</br>
+                                                Oh no 난 이미 멀리 와버렸는걸</br>
+                                                어느새 이 모든 게 장난이 아닌 걸</br>
+                                                사랑이란 빨간 불씨</br>
+                                                불어라 바람 더 커져가는 불길</br>
+                                                이게 약인지 독인지 우리 엄마도 몰라</br>
+                                                내 맘 도둑인데 왜 경찰도 몰라</br>
+                                                불 붙은 내 심장에 더 부어라 너란 기름</br>
+                                                kiss him will I diss him</br>
+                                                I don’t know but I miss him</br>
+                                                중독을 넘어선 이 사랑은 crack</br>
+                                                내 심장의 색깔은 black</br>
+                                                멈출 수 없는 이 떨림은</br>
+                                                On and on and on</br>
+                                                내 전부를 너란 불길 속으로</br>
+                                                던지고 싶어</br>
+                                                Look at me look at me now</br>
+                                                이렇게 넌 날 애태우고 있잖아</br>
+                                                끌 수 없어</br>
+                                                우리 사랑은 불장난</br>
+                                                My love is on fire</br>
+                                                Now burn baby burn</br>
+                                                불장난</br>
+                                                My love is on fire</br>
+                                                So don’t play with me boy</br>
+                                                불장난</br>
+                                                걷잡을 수가 없는 걸</br>
+                                                너무나 빨리 퍼져 가는 이 불길</br>
+                                                이런 날 멈추지 마</br>
+                                                이 사랑이 오늘 밤을 태워버리게 whooo</br>
+                                            </dd>
+                                            <button id="lyrics_control_button" class="lyrics_control_button" type="button" title="가사 더 보기" aria-label="가사 더 보기"><i class="fas fa-chevron-down"></i></button>
+                                        </div>
+                                    </dl>
+                                </div>
+                            </div>
+                             <!--album information-->
+                             <div id="album_information" class="info_detail_container" style="display: none;">
+                                <div class="info_detail_items_container">
+                                    <dl class="info_detail_items">
+                                        <div class="info_detail_item">
+                                            <dt>아티스트</dt>
+                                            <dd>BLACKPINK</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>앨범</dt>
+                                            <dd>SQUARE TWO</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>장르</dt>
+                                            <dd>댄스(국내)</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>발매</dt>
+                                            <dd>2016.11.01</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>발매사</dt>
+                                            <dd>YG PLUS</dd>
+                                        </div>
+                                        <div class="info_detail_item info_detail_item_long_content">
+                                            <dt>소개</dt>
+                                            <dd>
+                                                2016년 8월 8일 두 개의 곡,</br>
+                                                ‘휘파람'과 ‘붐바야'로 세상에 그 존재를 알린 ‘BLACKPINK'.</br></br>
+
+                                                국내뿐 아니라 전 세계에 큰 센세이션을 불러일으키며 각종 차트를 석권, 신인답지 않은 파급력으로 대중들에게 강렬한 인상을 남긴 그들이 또 한번 기대치를 넘어설 새로운 신곡과 함께 돌아왔다.</br></br>
+
+                                                가을과 어울리는 잔잔한 멜로디로 소녀들이 이끌어내는 감성은 또 다른 매력으로 대중을 사로잡는다. [SQUARE ONE]에 이어 [SQUARE TWO]로 이어지는 그들의 스텝은 모든 이들의 이목을 또 한번 집중시킬 것이다.
+                                            </dd>
+                                        </div>
+                                        <div class="info_detail_item info_detail_item_long_content album_track_list_container">
+                                            <dt>수록곡</dt>
+                                            <dd>
+                                                <ol class="album_track_list">
+                                                    <li class="album_track_list_item">불장난<span class="album_track_list_item_title"> TITLE</span></li>
+                                                    <li class="album_track_list_item">STAY<span class="album_track_list_item_title"> TITLE</span></li>
+                                                    <li class="album_track_list_item">휘파람 (Acoustic Ver.)</li>
+                                                </ol>
+                                            </dd>
+                                        </div>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <footer>
+                    <div class="footer_container footer_container_backgroundColor_BLACKPINK">
+                        <a class="footer_official_website" href="https://www.ygfamily.com/artist/main.asp?LANGDIV=K&ATYPE=2&ARTIDX=70" target="blank" title="블랙핑크 공식 홈페이지 바로가기" aria-label="블랙핑크 공식 홈페이지 바로가기"><img class="footer_logo_image footer_logo_image_BLACKPINK" src="https://img.pngio.com/blackpink-logo-transparent-png-stickpng-blackpink-logo-png-400_400.png" alt="logo_image"/></a>
+                            <div class="footer_SNS_company_website_container">
+                            <div class="footer_SNS_container">
+                                <dl class="footer_SNS_items">
+                                    <div class="footer_SNS_item">
+                                        <dt>트위터</dt>
+                                        <dd>
+                                            <a class="footer_SNS footer_SNS_twitter" href="https://twitter.com/blackpink/" target="blank" aria-label="오마이걸(OH-MY-GRIL) 트위터"><i class="fab fa-twitter-square"></i></a>
+                                        </dd>
+                                    </div>
+                                    <div class="footer_SNS_item">
+                                        <dt>인스타그램</dt>
+                                        <dd>
+                                            <a class="footer_SNS footer_SNS_instagram" href="https://www.instagram.com/BLACKPINKOFFICIAL/" target="blank" aria-label="오마이걸(BLACKPINK) 인스타그램"><i class="fab fa-instagram"></i></a>
+                                        </dd>
+                                    </div>
+                                    <div class="footer_SNS_item">
+                                        <dt>페이스북</dt>
+                                        <dd>
+                                            <a class="footer_SNS footer_SNS_facebook" href="https://www.facebook.com/BLACKPINKOFFICIAL/" target="blank" aria-label="오마이걸(BLACKPINK) 페이스북"><i class="fab fa-facebook"></i></a>
+                                        </dd>
+                                    </div>
+                                    <div class="footer_SNS_item">
+                                        <dt>유튜브</dt>
+                                        <dd>
+                                            <a class="footer_SNS footer_SNS_youtube" href="https://www.youtube.com/channel/UCOmHUn--16B90oW2L6FRR3A" target="blank" aria-label="오마이걸(BLACKPINK) 유튜브"><i class="fab fa-youtube"></i></a>
+                                        </dd>
+                                    </div>
+                                    <div class="footer_SNS_item">
+                                        <dt>V-live</dt>
+                                        <dd>
+                                            <a class="footer_SNS footer_SNS_vLive" href="https://www.vlive.tv/channel/F001E5" target="blank" aria-label="오마이걸(BLACKPINK) V-live"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/VLive_LOGO.png" alt="v-live logo"/></a>
+                                        </dd>
+                                    </div>
+                                </dl>
+                            </div>
+                            <div class="footer_company_website_container">
+                                <span>YG entertainment </span>
+                                <a href="https://www.ygfamily.com/" target="blank" aria-label="소속사 홈페이지 바로가기">https://www.ygfamily.com/</a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script type="text/javascript" charset="UTF-8" src="BLACKPINK.js"></script>
+    </body>
+</html>

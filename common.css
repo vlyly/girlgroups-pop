@@ -373,7 +373,7 @@ main {
     height: 300px;
   }
 
-  .sinfo_detail_item > dt {
+  .info_detail_item > dt {
     width: 30%;
   }
 
@@ -515,9 +515,5 @@ main {
 
   .youtube_mv {
     height: 200px;
-  }
-
-  .footer_official_website {
-    width: 30%;
   }
 }

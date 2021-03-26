@@ -6,10 +6,14 @@
   font-style: normal;
 }
 
-@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
-
-.jejumyeongjo * {
-  font-family: "Jeju Myeongjo", serif;
+@font-face {
+  font-family: "Hankc";
+  font-style: normal;
+  font-weight: 400;
+  src: url("//cdn.jsdelivr.net/korean-webfonts/1/corps/hani/Hankc/Hankc.woff2")
+      format("woff2"),
+    url("//cdn.jsdelivr.net/korean-webfonts/1/corps/hani/Hankc/Hankc.woff")
+      format("woff");
 }
 
 .wrapper_BLACKPINK {
@@ -40,7 +44,7 @@
 
 .song_title_BLACKPINK_1 {
   color: white;
-  font-family: "Jeju Myeongjo", serif;
+  font-family: "Hankc", serif;
 }
 
 .button_hover_backgroundColor_BLACKPINK :hover {
@@ -56,7 +60,7 @@
   border-radius: 20px 20px 0 0;
   background-color: rgb(255, 192, 203);
   color: white;
-  font-family: "ELAND_Choice_M";
+  font-family: "ELAND_Choice_M", sans-serif;
   font-weight: 700;
 }
 
@@ -64,7 +68,7 @@
   background-color: rgb(32, 32, 32);
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1400px) {
   .header_image_BLACKPINK {
     top: 0px;
   }

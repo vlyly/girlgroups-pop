@@ -15,7 +15,7 @@
 }
 
 .wrapper_Apink {
-  background-color: rgb(213, 236, 213);
+  background-color: seashell;
 }
 
 .header_title_container {
@@ -30,7 +30,7 @@
 
 .header_image_Apink {
   position: relative;
-  top: 100px;
+  top: 150px;
   width: 100%;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .button_hover_backgroundColor_Apink :hover {
-  background-color: darkseagreen;
+  background-color: rgb(240, 196, 185);
   color: white;
   transition: background-color 200ms;
 }
@@ -55,14 +55,14 @@
   height: 100%;
   border: none;
   border-radius: 20px 20px 0 0;
-  background-color: darkseagreen;
+  background-color: rgb(240, 196, 185);
   color: white;
   font-family: "ELAND_Choice_M", sans-serif;
   font-weight: 700;
 }
 
 .footer_container_backgroundColor_Apink {
-  background-color: rgb(205, 228, 205);
+  background-color: rgb(250, 226, 211);
 }
 
 @media screen and (max-width: 1600px) {

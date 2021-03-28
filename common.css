@@ -67,16 +67,16 @@ main {
 .topBar_container {
   display: flex;
   justify-content: center;
-  position: relative;
-  top: 30px;
   width: 100%;
   height: 100px;
 }
 
 .search_option,
 .search_input {
+  position: relative;
+  top: 30px;
   height: 30px;
-  border-radius: 5px;
+  /* border-radius: 7px; */
   background-color: white;
   font-family: "ELAND_Choice_M";
 }
@@ -95,22 +95,28 @@ main {
 
 .autocomplete_container {
   position: relative;
+  top: 30px;
   z-index: 99;
   width: 100%;
 }
 
-.autocomplete_list {
-  border-radius: 0 0 7px 7px;
-  background-color: cornflowerblue;
-}
-
 .autocomplete_list_item {
+  background-color: white;
   font-size: 13.3333px;
   text-indent: 1em;
   line-height: 30px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+}
+
+.autocomplete_list_item:not(.autocomplete_list_item_no_result):hover {
+  background-color: cornflowerblue;
+}
+
+.autocomplete_list_item_anchor {
+  display: block;
+  width: 100%;
 }
 
 /*****main*****/
@@ -467,7 +473,7 @@ main {
     display: block;
   }
 
-  .detail_item_long_content > dd {
+  .info_detail_item_long_content > dd {
     margin: 30px 0;
     font-size: 12px;
   }

@@ -26,7 +26,7 @@ const data = [
   {
     artist: "이달의 소녀",
     title: "Heart Attack (츄)",
-    src: "Girl'sPop_Heart Attack (츄)-이달의 소녀",
+    src: "이달의 소녀/Girl'sPop_Heart Attack (츄)-이달의 소녀",
   },
 ];
 

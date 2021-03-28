@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "Cafe24Oneprettynight";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Jal_Onuel";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Jal_Onuel.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.wrapper_idalso {
+  background-color: rgb(198, 214, 198);
+}
+
+.header_title_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.header_image_idalso {
+  position: relative;
+  top: -40px;
+  width: 100%;
+}
+
+.header_logo_idalso {
+  position: absolute;
+  width: 25%;
+  height: auto;
+}
+
+.song_title_idalso_1 {
+  font-family: "Jal_Onuel", sans-serif;
+}
+
+.button_hover_backgroundColor_idalso :hover {
+  background-color: darkseagreen;
+  color: white;
+  transition: background-color 200ms;
+}
+
+.selected_button_backgroundColor_idalso {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 20px 20px 0 0;
+  background-color: darkseagreen;
+  color: white;
+  font-family: "ELAND_Choice_M", sans-serif;
+  font-weight: 700;
+}
+
+.footer_container_backgroundColor_idalso {
+  background-color: rgb(193, 206, 193);
+}
+
+.footer_logo_image_idalso {
+  width: 60px;
+}
+
+@media screen and (max-width: 1700px) {
+  .header_image_idalso {
+    top: 0;
+  }
+}

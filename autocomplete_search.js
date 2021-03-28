@@ -10,7 +10,7 @@ autocomplete_list_item_no_result.innerText = "일치하는 검색 결과가 없�
 const data = [
   {
     artist: "에이핑크(APINK)",
-    title: "REMEMBER",
+    title: "Remember",
     src: "Apink/Girl'sPop_Remember-에이핑크(Apink)",
   },
   {
@@ -20,8 +20,8 @@ const data = [
   },
   {
     artist: "오마이걸(OH MY GIRL)",
-    title: "불꽃놀이 (REMEMBER ME)",
-    src: "OH MY GIRL/Girl'sPop_불꽃놀이 (Remember me)-오마이걸(OH MY GIRL)",
+    title: "불꽃놀이 (Remember Me)",
+    src: "OH MY GIRL/Girl'sPop_불꽃놀이 (Remember Me)-오마이걸(OH MY GIRL)",
   },
 ];
 

@@ -9,7 +9,7 @@ autocomplete_list_item_no_result.classList.add("autocomplete_list_item");
 autocomplete_list_item_no_result.innerText = "일치하는 검색 결과가 없습니다.";
 const data = [
   {
-    artist: "에이핑크(APINK)",
+    artist: "에이핑크(Apink)",
     title: "Remember",
     src: "Apink/Girl'sPop_Remember-에이핑크(Apink)",
   },

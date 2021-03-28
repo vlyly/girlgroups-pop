@@ -1,4 +1,3 @@
-import data from "./girlgroups-pop_data.js";
 const userInput = document.getElementById("search_input");
 const autocomplete_list = document.getElementById("autocomplete_list");
 let searchOption = document.getElementById("search_option");
@@ -8,6 +7,23 @@ autocomplete_list_item_no_result.classList.add(
 );
 autocomplete_list_item_no_result.classList.add("autocomplete_list_item");
 autocomplete_list_item_no_result.innerText = "일치하는 검색 결과가 없습니다.";
+const data = [
+  {
+    artist: "에이핑크(APINK)",
+    title: "REMEMBER",
+    src: "Apink/Girl'sPop_Remember-에이핑크(Apink)",
+  },
+  {
+    artist: "BLACKPINK",
+    title: "불장난",
+    src: "BLACKPINK/Girl'sPop_불장난-BLACKPINK",
+  },
+  {
+    artist: "오마이걸(OH MY GIRL)",
+    title: "불꽃놀이 (REMEMBER ME)",
+    src: "OH MY GIRL/Girl'sPop_불꽃놀이 (Remember me)-오마이걸(OH MY GIRL)",
+  },
+];
 
 function search() {
   let userInputValue = userInput.value.toUpperCase();
@@ -28,7 +44,7 @@ function search() {
         autocomplete_list_item.className = "autocomplete_list_item";
         autocomplete_list_item_anchor.className =
           "autocomplete_list_item_anchor";
-        autocomplete_list_item_anchor.href = `http://127.0.0.1:8107/${data[i].src}.html`;
+        autocomplete_list_item_anchor.href = `https://vlyly.github.io/girlgroups-pop/${data[i].src}.html`;
         autocomplete_list_item_anchor.innerText = `${data[i].title}-${data[i].artist}`;
         autocomplete_list_item.appendChild(autocomplete_list_item_anchor);
         autocomplete_list.appendChild(autocomplete_list_item);
@@ -44,7 +60,7 @@ function search() {
         autocomplete_list_item.className = "autocomplete_list_item";
         autocomplete_list_item_anchor.className =
           "autocomplete_list_item_anchor";
-        autocomplete_list_item_anchor.href = `http://127.0.0.1:8107/${data[i].src}.html`;
+        autocomplete_list_item_anchor.href = `https://vlyly.github.io/girlgroups-pop/${data[i].src}.html`;
         autocomplete_list_item_anchor.innerText = `${data[i].title}-${data[i].artist}`;
         autocomplete_list_item.appendChild(autocomplete_list_item_anchor);
         autocomplete_list.appendChild(autocomplete_list_item);

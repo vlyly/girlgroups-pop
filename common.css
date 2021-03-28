@@ -388,6 +388,10 @@ main {
     padding: 30px 0;
   }
 
+  .footer_logo_image {
+    margin-bottom: 30px;
+  }
+
   .footer_official_website {
     margin-bottom: 30px;
   }

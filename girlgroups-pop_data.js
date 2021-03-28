@@ -12,8 +12,7 @@ const data = [
   {
     artist: "오마이걸(OH MY GIRL)",
     title: "불꽃놀이 (REMEMBER ME)",
-    src:
-      "오마이걸(OH MY GIRL)/Girl'sPop_불꽃놀이 (Remember me)-오마이걸(OH MY GIRL)",
+    src: "OH MY GIRL/Girl'sPop_불꽃놀이 (Remember me)-오마이걸(OH MY GIRL)",
   },
 ];
 

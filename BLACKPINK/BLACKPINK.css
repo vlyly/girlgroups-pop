@@ -7,13 +7,11 @@
 }
 
 @font-face {
-  font-family: "Hankc";
+  font-family: "Eulyoo1945-SemiBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/Eulyoo1945-SemiBold.woff")
+    format("woff");
+  font-weight: normal;
   font-style: normal;
-  font-weight: 400;
-  src: url("//cdn.jsdelivr.net/korean-webfonts/1/corps/hani/Hankc/Hankc.woff2")
-      format("woff2"),
-    url("//cdn.jsdelivr.net/korean-webfonts/1/corps/hani/Hankc/Hankc.woff")
-      format("woff");
 }
 
 .wrapper_BLACKPINK {
@@ -44,7 +42,7 @@
 
 .song_title_BLACKPINK_1 {
   color: white;
-  font-family: "Hankc", serif;
+  font-family: "Eulyoo1945-SemiBold", serif;
 }
 
 .button_hover_backgroundColor_BLACKPINK :hover {

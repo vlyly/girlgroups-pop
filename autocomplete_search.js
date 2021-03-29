@@ -28,6 +28,21 @@ const data = [
     title: "Heart Attack (츄)",
     src: "이달의 소녀/Girl'sPop_Heart Attack (츄)-이달의 소녀",
   },
+  {
+    artist: "TWICE(트와이스)",
+    title: "Heart Shaker",
+    src: "TWICE/Girl'sPop_Heart Shaker-TWICE(트와이스)",
+  },
+  {
+    artist: "TWICE(트와이스)",
+    title: "JELLY JELLY",
+    src: "TWICE/Girl'sPop_JELLY JELLY-TWICE(트와이스)",
+  },
+  {
+    artist: "러블리즈",
+    title: "Candy Jelly Love",
+    src: "러블리즈/Girl'sPop_Candy Jelly Love-러블리즈",
+  },
 ];
 
 function search() {

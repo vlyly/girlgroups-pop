@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "Cafe24Oneprettynight";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GyeonggiBatang";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.wrapper_Lovelyz {
+  background-color: rgb(212, 226, 238);
+}
+
+.header_title_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.header_image_Lovelyz {
+  position: relative;
+  top: 80px;
+  width: 100%;
+}
+
+.header_logo_Lovelyz {
+  position: absolute;
+  width: 25%;
+  height: auto;
+}
+
+.song_title_Lovelyz_1 {
+  font-family: "GyeonggiBatang", sans-serif;
+}
+
+.button_hover_backgroundColor_Lovelyz :hover {
+  background-color: steelblue;
+  color: white;
+  transition: background-color 200ms;
+}
+
+.selected_button_backgroundColor_Lovelyz {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 20px 20px 0 0;
+  background-color: steelblue;
+  color: white;
+  font-family: "ELAND_Choice_M", sans-serif;
+  font-weight: 700;
+}
+
+.footer_container_backgroundColor_Lovelyz {
+  background-color: rgb(194, 214, 228);
+}
+
+.footer_logo_image_Lovelyz {
+  width: 100px;
+}
+
+@media screen and (max-width: 1700px) {
+  .header_image_Lovelyz {
+    top: 0;
+  }
+}

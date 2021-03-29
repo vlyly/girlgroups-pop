@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie-edge" /><!--해당 브라우저의 최신 렌더링 모드로 작동하게 강제합니다-->
+        <link rel="stylesheet" href="../common.css"/>
+        <link rel="stylesheet" href="TWICE(트와이스).css"/>
+        <script src="https://kit.fontawesome.com/2884632ff3.js" crossorigin="anonymous"></script>
+        <title>Heart Shaker-TWICE(트와이스)</title>
+    </head>
+    <body>
+        <div class="wrapper wrapper_TWICE">
+            <div class="content_wrapper">
+                <header>
+                    <div class="header_wrapper">
+                        <div class=header_container>
+                            <div id="topBar_container" class="topBar_container">
+                                <select id="search_option" class="search_option">
+                                    <option value="Artist">아티스트</option>
+                                    <option value="Title">제목</option>
+                                </select>
+                                <div class="searchArea_container">
+                                    <input id="search_input" class="search_input" type="text" placeholder="아티스트명으로 검색" spellcheck="false" autocomplete="off"/>
+                                    <div id="autocomplete_container" class="autocomplete_container">
+                                        <ul id="autocomplete_list" class="autocomplete_list">
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header_title_container">
+                                <img class="header_image_TWICE" src="https://i.imgur.com/pZrfRSM.jpg" alt="header_image"/>
+                                <img class="header_logo_TWICE" src="http://obj-sg.thewiki.kr/data/ed8ab8ec9980ec9db4ec8aa45fed9994ec9db4ed8ab82e706e67.png" alt="logo_image"/>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <main>
+                    <div class="main_container">
+                        <h3 class="song_title song_title_TWICE_1">Heart Shaker</h3>
+                        <iframe class="youtube_mv" src="https://www.youtube.com/embed/rRzxEiBLQCA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="info_container">
+                            <div class="info_menu_container">
+                                <ul class="info_menu">
+                                    <li class="info_menu_item button_hover_backgroundColor_TWICE"><button id="song_information_button" class="selected_button_backgroundColor_TWICE info_menu_item_button" type="button">곡 정보</button></li>
+                                    <li class="info_menu_item button_hover_backgroundColor_TWICE"><button id="album_information_button" class="info_menu_item_button" type="button">수록 앨범</button></li>
+                                </ul>
+                            </div>
+                            <div class="info_detail_container">
+                                <!--song information-->
+                                <div id="song_information" class="info_detail_items_container">
+                                    <dl class="info_detail_items">
+                                        <div class="info_detail_item">
+                                            <dt>아티스트</dt>
+                                            <dd>TWICE(트와이스)</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>앨범</dt>
+                                            <dd>Merry & Happy</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>장르</dt>
+                                            <dd>댄스(국내)</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>작곡</dt>
+                                            <dd>David Amber, Sean Alexander</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>작사</dt>
+                                            <dd>별들의 전쟁</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>편곡</dt>
+                                            <dd>David Amber, Avenue 52</dd>
+                                        </div>
+                                        <div class="info_detail_item info_detail_item_long_content">
+                                            <dt>가사</dt>
+                                            <dd id="lyrics" class="hidden_lyrics">
+                                                Yeah Yeah Yeah Yeah Yeah</br>
+                                                Come and be my love</br>
+                                                Come and be my love baby</br>
+                                                Yeah Yeah Yeah Yeah Yeah</br>
+                                                Come and be my love</br>
+                                                Come and be my love baby</br></br>
+
+                                                멍하니 서서 막 고민고민 해</br>
+                                                나 이거 진짜 잘하는 짓인지</br>
+                                                Yeah Yeah Yeah Yeah</br>
+                                                뭐 어때</br>
+                                                No No No No</br>
+                                                미쳤어</br></br>
+
+                                                난 쯔위라고 해</br>
+                                                무작정 인사할까</br>
+                                                내 전화번호야</br>
+                                                쪽지 주고 도망칠까</br>
+                                                Yeah Yeah Yeah Yeah</br>
+                                                어떡해</br>
+                                                No No No No</br></br>
+
+                                                지금이야</br>
+                                                Girl you can do it</br>
+                                                눈이 마주치고 있잖아</br>
+                                                Love is timing</br>
+                                                놓치면 후회할지 몰라</br>
+                                                Love is coming coming</br>
+                                                좀만 더 용기를 내</br>
+                                                더는 망설이지 마</br></br>
+
+                                                이상하게 생각해도</br>
+                                                어쩔 수 없어 반했으니까</br>
+                                                You're my heart shaker shaker</br>
+                                                놓치기 싫어</br>
+                                                You're my heart shaker shaker</br>
+                                                어떡해</br></br>
+
+                                                바보처럼 안 기다려</br>
+                                                내가 말할래 반해버렸다고</br>
+                                                네가 맘에 든다고</br>
+                                                하루 종일 보고 싶다고</br>
+                                                Would you be my love</br>
+                                                반해버렸으니까</br></br>
+
+                                                표정관리 해 어색하지 않게</br>
+                                                말투는 Cool Cool</br>
+                                                긴장할 필요 없어</br>
+                                                Yeah Yeah Yeah Yeah</br>
+                                                정신 바짝 차리고 집중해</br>
+                                                No No No No</br>
+                                                어떡해 똑바로 못 보겠어</br></br>
+
+                                                지금이야</br>
+                                                Girl you can do it</br>
+                                                눈이 마주치고 있잖아</br>
+                                                Love is timing</br>
+                                                놓치면 후회할지 몰라</br>
+                                                Love is coming coming</br>
+                                                좀만 더 용기를 내</br>
+                                                더는 망설이지 마</br></br>
+
+                                                이상하게 생각해도</br>
+                                                어쩔 수 없어 반했으니까</br>
+                                                You're my heart shaker shaker</br>
+                                                놓치기 싫어</br>
+                                                You're my heart shaker shaker</br>
+                                                어떡해</br></br>
+
+                                                바보처럼 안 기다려</br>
+                                                내가 말할래 반해버렸다고</br>
+                                                네가 맘에 든다고</br>
+                                                하루종일 보고 싶다고</br>
+                                                Would you be my love</br>
+                                                반해버렸으니까</br></br>
+
+                                                너도 날 원하게 될 거야</br>
+                                                날 사랑하게 될 걸</br>
+                                                간절히 바라 너도</br>
+                                                나와 같기를 Oh yeah</br></br>
+
+                                                망설이지 마 먼저 다가가</br>
+                                                사랑을 말해 주저 하지 마</br>
+                                                Come baby, be my, be my, be my love</br>
+                                                Come baby, Bae Bae Bae Bae</br></br>
+
+                                                이상하게 생각해도</br>
+                                                어쩔 수 없어 반했으니까</br>
+                                                You're my heart shaker shaker</br>
+                                                놓치기 싫어</br>
+                                                You're my heart shaker shaker</br>
+                                                어떡해</br></br>
+
+                                                바보처럼 안 기다려</br>
+                                                내가 말할래 좋아한다고</br>
+                                                네가 맘에 든다고</br>
+                                                하루 종일 보고 싶다고</br>
+                                                사랑한다고</br>
+                                                반해버렸다고</br></br>
+
+                                                You are mine, Be mine</br>
+                                                You are mine, be mine</br>
+                                                좋아한다고 말할래</br>
+                                                반했으니까
+                                            </dd>
+                                            <button id="lyrics_control_button" class="lyrics_control_button" type="button" title="가사 더 보기" aria-label="가사 더 보기"><i class="fas fa-chevron-down"></i></button>
+                                        </div>
+                                    </dl>
+                                </div>
+                            </div>
+                             <!--album information-->
+                             <div id="album_information" class="info_detail_container" style="display: none;">
+                                <div class="info_detail_items_container">
+                                    <dl class="info_detail_items">
+                                        <div class="info_detail_item">
+                                            <dt>아티스트</dt>
+                                            <dd>TWICE(트와이스)</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>앨범</dt>
+                                            <dd>Merry & Happy</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>장르</dt>
+                                            <dd>댄스(국내)</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>발매</dt>
+                                            <dd>2017.12.11</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>발매사</dt>
+                                            <dd>Dreamus</dd>
+                                        </div>
+                                        <div class="info_detail_item info_detail_item_long_content">
+                                            <dt>소개</dt>
+                                            <dd>
+                                                트와이스 정규 1집 [트와이스타그램(twicetagram)]의 리패키지 앨범 [메리 & 해피]는 타이틀곡 "하트 셰이커"외에 앨범명과 동명의 캐롤송 "메리 & 해피" 등 2곡의 신곡과 정규 1집 앨범 수록곡 등 총 15트랙이 담긴다.</br></br>
+
+                                                타이틀곡 "하트 셰이커"는 마음을 송두리째 흔들어버린 상대를 향해 용기 있게 먼저 다가가서 사랑을 이뤄내고 싶은 '트와이스'의 마음을 담은 곡이다. “난 쯔위라고 해”, “내 전화번호야” 등의 당돌하면서도 귀여운 가사가 인상적이다.</br></br>
+
+                                                JYP엔터테인먼트 수장 박진영이 작사를 한 것으로 밝혀져 화제를 모은 '메리 & 해피'는 트와이스표 캐롤송으로 겨울 느낌을 가득 담은 사운드에 처음으로 사랑에 빠져 맞이한 크리스마스의 기쁨을 가사로 표현했다.
+                                            </dd>
+                                        </div>
+                                        <div class="info_detail_item info_detail_item_long_content album_track_list_container">
+                                            <dt>수록곡</dt>
+                                            <dd>
+                                                <ol class="album_track_list">
+                                                    <li class="album_track_list_item">Heart Shaker<span class="album_track_list_item_title"> TITLE</TITLE></span></li>
+                                                    <li class="album_track_list_item">Merry & Happy</li>
+                                                    <li class="album_track_list_item">LIKEY</li>
+                                                    <li class="album_track_list_item">거북이</li>
+                                                    <li class="album_track_list_item">MISSING U</li>
+                                                    <li class="album_track_list_item">WOW</li>
+                                                    <li class="album_track_list_item">FFW</li>
+                                                    <li class="album_track_list_item">DING DONG</li>
+                                                    <li class="album_track_list_item">24/7</li>
+                                                    <li class="album_track_list_item">날 바라바라봐</li>
+                                                    <li class="album_track_list_item">ROLLIN'</li>
+                                                    <li class="album_track_list_item">LOVE LINE</li>
+                                                    <li class="album_track_list_item">힘내! (DON'T GIVE UP)</li>
+                                                    <li class="album_track_list_item">널 내게 담아</li>
+                                                    <li class="album_track_list_item">잘자요 굿나잇</li>
+                                                </ol>
+                                            </dd>
+                                        </div>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <footer>
+                    <div class="footer_container footer_container_backgroundColor_TWICE">
+                        <a href="https://twice.jype.com/" target="blank" title= "트와이스 공식 홈페이지 바로가기" aria-label="트와이스 공식 홈페이지 바로가기"><img class="footer_logo_image footer_logo_image_TWICE" src="https://upload.wikimedia.org/wikipedia/commons/6/60/TWICE_LOGO.png" alt="logo_image"/></a>
+                        <div class="footer_SNS_company_website_container">
+                            <div class="footer_SNS_container">
+                                <dl class="footer_SNS_items">
+                                    <div class="footer_SNS_item">
+                                        <dt>트위터</dt>
+                                        <dd>
+                                            <a class="footer_SNS footer_SNS_twitter" href="https://twitter.com/JYPETWICE/" target="blank" aria-label="TWICE(트와이스) 트위터"><i class="fab fa-twitter-square"></i></a>
+                                        </dd>
+                                    </div>
+                                    <div class="footer_SNS_item">
+                                        <dt>인스타그램</dt>
+                                        <dd>
+                                            <a class="footer_SNS footer_SNS_instagram" href="https://www.instagram.com/twicetagram/" target="blank" aria-label="TWICE(트와이스) 인스타그램"><i class="fab fa-instagram"></i></a>
+                                        </dd>
+                                    </div>
+                                    <div class="footer_SNS_item">
+                                        <dt>페이스북</dt>
+                                        <dd>
+                                            <a class="footer_SNS footer_SNS_facebook" href="https://www.facebook.com/JYPETWICE" target="blank" aria-label="TWICE(트와이스) 페이스북"><i class="fab fa-facebook"></i></a>
+                                        </dd>
+                                    </div>
+                                    <div class="footer_SNS_item">
+                                        <dt>유튜브</dt>
+                                        <dd>
+                                            <a class="footer_SNS footer_SNS_youtube" href="https://www.youtube.com/channel/UCzgxx_DM2Dcb9Y1spb9mUJA/featured" target="blank" aria-label="TWICE(트와이스) 유튜브"><i class="fab fa-youtube"></i></a>
+                                        </dd>
+                                    </div>
+                                    <div class="footer_SNS_item">
+                                        <dt>V-live</dt>
+                                        <dd>
+                                            <a class="footer_SNS footer_SNS_vLive" href="https://www.vlive.tv/channel/EDBF" target="blank" aria-label="TWICE(트와이스) V-live"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/VLive_LOGO.png" alt="v-live logo"/></a>
+                                        </dd>
+                                    </div>
+                                </dl>
+                            </div>
+                            <div class="footer_company_website_container">
+                                <span>JYP엔터테이먼트</span>
+                                <a href="https://www.jype.com/" target="blank" aria-label="소속사 홈페이지 바로가기">https://www.jype.com/</a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script type="text/javascript" charset="UTF-8" src="TWICE(트와이스).js"></script>
+        <script type="text/javascript" charset="UTF-8" src="../autocomplete_search.js"></script>
+    </body>
+</html>

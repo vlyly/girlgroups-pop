@@ -15,15 +15,15 @@
 }
 
 @font-face {
-  font-family: "Bazzi";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/Bazzi.woff")
+  font-family: "Malssami815";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Malssami815.woff")
     format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 .wrapper_TWICE {
-  background-color: rgb(238, 230, 250);
+  background-color: rgb(238, 238, 228);
 }
 
 .header_title_container {
@@ -38,7 +38,7 @@
 
 .header_image_TWICE {
   position: relative;
-  top: 120px;
+  top: 70px;
   width: 100%;
 }
 
@@ -53,11 +53,11 @@
 }
 
 .song_title_TWICE_2 {
-  font-family: "Bazzi", sans-serif;
+  font-family: "Malssami815", sans-serif;
 }
 
 .button_hover_backgroundColor_TWICE :hover {
-  background-color: rgb(141, 116, 161);
+  background-color: rgb(211, 218, 195);
   color: white;
   transition: background-color 200ms;
 }
@@ -67,14 +67,14 @@
   height: 100%;
   border: none;
   border-radius: 20px 20px 0 0;
-  background-color: rgb(141, 116, 161);
+  background-color: rgb(211, 218, 195);
   color: white;
   font-family: "ELAND_Choice_M", sans-serif;
   font-weight: 700;
 }
 
 .footer_container_backgroundColor_TWICE {
-  background-color: rgb(212, 204, 235);
+  background-color: rgb(221, 221, 211);
 }
 
 .footer_logo_image_TWICE {

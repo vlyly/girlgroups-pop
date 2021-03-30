@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie-edge" /><!--해당 브라우저의 최신 렌더링 모드로 작동하게 강제합니다-->
+        <script src="https://kit.fontawesome.com/2884632ff3.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="home.css"/>
+        <title>Girl-Group's POP</title>
+    </head>
+    <body>
+        <div class=wrapper>
+            <div class="content_container">
+                <div class="title"><i class="fas fa-music"></i></div>
+                <div class="searchBar">
+                    <select id="search_option" class="search_option">
+                        <option value="Artist">아티스트</option>
+                        <option value="Title">제목</option>
+                    </select>
+                    <div class="searchArea_container">
+                        <input id="search_input" class="search_input" type="text" placeholder="아티스트명으로 검색" spellcheck="false" autocomplete="off"/>
+                        <div id="autocomplete_container" class="autocomplete_container">
+                            <ul id="autocomplete_list" class="autocomplete_list">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" charset="UTF-8" src="autocomplete_search.js"></script>
+    </body>
+    </html>

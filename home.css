@@ -56,8 +56,7 @@ a:visited {
 }
 
 .title {
-  position: absolute;
-  top: 35%;
+  margin-bottom: 30px;
   font-size: 55px;
   color: rgba(255, 255, 255, 0.8);
   text-shadow: lightpink 0px 0px 5px, lightpink 0px 0px 10px,
@@ -131,7 +130,6 @@ a:visited {
 
 @media screen and (max-width: 768px) {
   .title {
-    top: 37%;
     font-size: 45px;
   }
 
@@ -163,10 +161,6 @@ a:visited {
 }
 
 @media screen and (max-width: 540px) {
-  .title {
-    top: 30%;
-  }
-
   .searchBar {
     display: flex;
     flex-direction: column;

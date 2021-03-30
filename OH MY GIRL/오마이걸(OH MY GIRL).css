@@ -14,6 +14,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Chosunilbo_myungjo";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .wrapper_OH_MY_GIRL {
   background-color: rgb(255, 233, 233);
 }
@@ -42,6 +50,10 @@
 
 .song_title_OH_MY_GIRL_1 {
   font-family: "MapoFlowerIsland", serif;
+}
+
+.song_title_OH_MY_GIRL_2 {
+  font-family: "Chosunilbo_myungjo", serif;
 }
 
 .button_hover_backgroundColor_OH_MY_GIRL :hover {

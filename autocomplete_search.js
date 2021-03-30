@@ -24,6 +24,11 @@ const data = [
     src: "OH MY GIRL/Girl'sPop_불꽃놀이 (Remember Me)-오마이걸(OH MY GIRL)",
   },
   {
+    artist: "오마이걸(OH MY GIRL)",
+    title: "비밀정원",
+    src: "OH MY GIRL/Girl'sPop_비밀정원-오마이걸(OH MY GIRL)",
+  },
+  {
     artist: "이달의 소녀",
     title: "Heart Attack (츄)",
     src: "이달의 소녀/Girl'sPop_Heart Attack (츄)-이달의 소녀",

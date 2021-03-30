@@ -141,22 +141,10 @@ a:visited {
     min-width: 80px;
   }
 
-  .search_option,
-  .search_input {
-    height: 30px;
-    font-size: 13px;
-  }
-
-  .autocomplete_container {
-    top: 30px;
-  }
-
   .autocomplete_list_item {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.8);
-    font-size: 13px;
     text-indent: 1em;
-    line-height: 30px;
   }
 }
 

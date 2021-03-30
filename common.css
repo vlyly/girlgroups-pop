@@ -464,10 +464,6 @@ main {
   .info_detail_item:not(.info_detail_item_long_content) > dd {
     margin-left: 20px;
   }
-  /* .info_detail_item > dt,
-  .info_detail_item > dd {
-    margin-left: 20px;
-  } */
 
   .info_detail_item_long_content {
     display: block;
@@ -481,10 +477,6 @@ main {
   .album_track_list_container > dt,
   .album_track_list_container > dd {
     margin-left: 20px;
-  }
-
-  .lyrics_control_button {
-    font-size: 15px;
   }
 
   .album_track_list_item_title {

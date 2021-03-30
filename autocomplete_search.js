@@ -43,6 +43,11 @@ const data = [
     title: "Candy Jelly Love",
     src: "러블리즈/Girl'sPop_Candy Jelly Love-러블리즈",
   },
+  {
+    artist: "우주소녀",
+    title: "비밀이야 (Secret)",
+    src: "우주소녀/Girl'sPop_비밀이야 (Secret)-우주소녀",
+  },
 ];
 
 function search() {

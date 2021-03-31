@@ -53,6 +53,11 @@ const data = [
     title: "비밀이야 (Secret)",
     src: "우주소녀/Girl'sPop_비밀이야 (Secret)-우주소녀",
   },
+  {
+    artist: "IZ*ONE(아이즈원)",
+    title: "비올레타",
+    src: "IZONE/Girl'sPop_비올레타-IZ*ONE(아이즈원)",
+  },
 ];
 
 function search() {

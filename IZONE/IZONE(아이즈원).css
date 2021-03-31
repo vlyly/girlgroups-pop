@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Cafe24Oneprettynight";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "KOTRA_SONGEULSSI";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/KOTRA_SONGEULSSI.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.wrapper_IZONE {
+  background-color: whitesmoke;
+}
+
+.header_title_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.header_image_IZONE {
+  position: relative;
+  top: 240px;
+  width: 100%;
+}
+
+.header_logo_IZONE {
+  position: absolute;
+  width: 30%;
+  height: auto;
+}
+
+.song_title_IZONE_1 {
+  font-family: "KOTRA_SONGEULSSI", serif;
+}
+
+.button_hover_backgroundColor_IZONE :hover {
+  background-color: rgb(230, 204, 197);
+  color: white;
+  transition: background-color 200ms;
+}
+
+.selected_button_backgroundColor_IZONE {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 20px 20px 0 0;
+  background-color: rgb(230, 204, 197);
+  color: white;
+  font-family: "ELAND_Choice_M", sans-serif;
+  font-weight: 700;
+}
+
+.footer_container_backgroundColor_IZONE {
+  background-color: rgb(224, 229, 233);
+}
+
+@media screen and (max-width: 1700px) {
+  .header_image_IZONE {
+    top: 150px;
+  }
+
+  .header_logo_IZONE {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .header_image_IZONE {
+    top: 100px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .header_image_IZONE {
+    top: 50px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .header_image_IZONE {
+    top: 0;
+  }
+}

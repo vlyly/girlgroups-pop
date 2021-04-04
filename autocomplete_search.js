@@ -56,7 +56,7 @@ const data = [
   {
     artist: "IZ*ONE(아이즈원)",
     title: "비올레타",
-    src: "IZONE/Girl'sPop_비올레타-IZ*ONE(아이즈원)",
+    src: "IZONE/Girl'sPop_비올레타-IZONE(아이즈원)",
   },
 ];
 

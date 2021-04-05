@@ -27,10 +27,6 @@ ol {
   padding: 0;
 }
 
-li {
-  list-style: none;
-}
-
 button {
   cursor: pointer;
 }
@@ -111,6 +107,7 @@ main {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  list-style: none;
 }
 
 .autocomplete_list_item:not(.autocomplete_list_item_no_result):hover {

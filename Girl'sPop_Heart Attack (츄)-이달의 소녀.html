@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie-edge" /><!--해당 브라우저의 최신 렌더링 모드로 작동하게 강제합니다-->
+        <link rel="stylesheet" href="../common.css"/>
+        <link rel="stylesheet" href="이달의 소녀.css"/>
+        <script src="https://kit.fontawesome.com/2884632ff3.js" crossorigin="anonymous"></script>
+        <title>Heart Attack (츄)-이달의 소녀</title>
+    </head>
+    <body>
+        <div class="wrapper wrapper_idalso">
+            <div class="content_wrapper">
+                <header>
+                    <div class="header_wrapper">
+                        <div class=header_container>
+                            <div id="topBar_container" class="topBar_container">
+                                <select id="search_option" class="search_option">
+                                    <option value="Artist">아티스트</option>
+                                    <option value="Title">제목</option>
+                                </select>
+                                <div class="searchArea_container">
+                                    <input id="search_input" class="search_input" type="text" placeholder="아티스트명으로 검색" spellcheck="false" autocomplete="off"/>
+                                    <div id="autocomplete_container" class="autocomplete_container">
+                                        <ul id="autocomplete_list" class="autocomplete_list">
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header_title_container">
+                                <img class="header_image_idalso" src="https://i.pinimg.com/originals/7f/98/f7/7f98f756aeacb3061ec88ddf538d1025.jpg" alt="header_image"/>
+                                <img class="header_logo_idalso" src="https://cdn.imweb.me/thumbnail/20210720/3df7e4548288c.png" alt="logo_image"/>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <main>
+                    <div class="main_container">
+                        <h3 class="song_title song_title_idalso_1">Heart Attack (츄)</h3>
+                        <iframe class="youtube_mv" src="https://www.youtube.com/embed/BVVfMFS3mgc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="info_container">
+                            <div class="info_menu_container">
+                                <ul class="info_menu">
+                                    <li class="info_menu_item button_hover_backgroundColor_idalso"><button id="song_information_button" class="selected_button_backgroundColor_idalso info_menu_item_button" type="button">곡 정보</button></li>
+                                    <li class="info_menu_item button_hover_backgroundColor_idalso"><button id="album_information_button" class="info_menu_item_button" type="button">수록 앨범</button></li>
+                                </ul>
+                            </div>
+                            <div class="info_detail_container">
+                                <!--song information-->
+                                <div id="song_information" class="info_detail_items_container">
+                                    <dl class="info_detail_items">
+                                        <div class="info_detail_item">
+                                            <dt>아티스트</dt>
+                                            <dd>이달의 소녀</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>앨범</dt>
+                                            <dd>Chuu</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>장르</dt>
+                                            <dd>댄스(국내)</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>작곡</dt>
+                                            <dd>Ollipop, Hayley Aitken</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>작사</dt>
+                                            <dd>박지연(MonoTree)</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>편곡</dt>
+                                            <dd>Ollipop, Hayley Aitken</dd>
+                                        </div>
+                                        <div class="info_detail_item info_detail_item_long_content">
+                                            <dt>가사</dt>
+                                            <dd id="lyrics" class="hidden_lyrics">
+                                                You attack my heart</br>
+                                                You attack my heart</br>
+                                                You attack my heart</br>
+                                                You attack my heart</br></br>
+
+                                                우리 처음 봤던 날</br>
+                                                조용했던 내 맘속</br>
+                                                새로운 세상이 열린 듯</br>
+                                                유난히 빨라지던 Move</br></br>
+
+                                                나 혼자 알고 있었던</br>
+                                                감춰진 내 비밀도</br>
+                                                너에게 딱 내 전부 다</br>
+                                                말하고 싶어지던 Mood</br></br>
+
+                                                나 한걸음 먼저 널 향해 먼저</br>
+                                                다가간 모습에</br>
+                                                숨어있던 날 만나게 돼</br></br>
+
+                                                점점 더 두근대는 맘</br>
+                                                전부 다 줄게 Take my heart</br>
+                                                분명 넌 나의 Destiny</br>
+                                                빛이 나 내 맘 가득히</br>
+                                                아찔한 기분이 이런 건가 봐 Darling</br>
+                                                점점 더 난 네게 빠져 가</br>
+                                                You attack my heart</br></br>
+
+                                                You attack my heart</br>
+                                                You attack my heart</br>
+                                                You attack my heart</br>
+                                                You attack my heart</br></br>
+
+                                                이런 게 Fall in love</br>
+                                                하얀 내 맘에 너를 담았더니 빨간색이 돼</br>
+                                                멈출 수 없이 자꾸 떠올라</br>
+                                                유난히 더 많이 생각하게 돼</br></br>
+
+                                                내 모든 기준들이 너로 정해져버리듯</br>
+                                                지구를 맴맴 도는 저기 달처럼</br>
+                                                우린 Woo Woo 만나게 될 거야</br>
+                                                On the woo woo woo</br>
+                                                On the love trail</br></br>
+
+                                                널 보면 반짝 내 맘에 반짝</br>
+                                                불꽃이 튀는 듯</br>
+                                                숨어 있던 맘을 알게 돼</br></br>
+
+                                                점점 더 두근대는 맘</br>
+                                                전부 다 줄게 Take my heart</br>
+                                                분명 넌 나의 Destiny</br>
+                                                빛이 나 내 맘 가득히</br>
+                                                아찔한 기분이 이런 건가 봐 Darling</br>
+                                                점점 더 난 네게 빠져 가</br>
+                                                You attack my heart</br></br>
+
+                                                시간의 흐름도 모를 만큼</br>
+                                                Anywhere Anywhere 널 생각해</br>
+                                                Anytime Anyplace 너로 가득</br>
+                                                끝없이 퍼져</br>
+                                                조금 더 가까이 다가와 줘</br>
+                                                우리 둘 함께 마주한다면</br>
+                                                상상조차 달콤하게만 느껴져</br></br>
+
+                                                널 향해 두근대는 맘</br>
+                                                전부 다 줄게 Take my heart</br>
+                                                분명 넌 나의 Destiny</br>
+                                                빛이 나 내 맘 가득해</br></br>
+
+                                                점점 더 선명해진 맘</br>
+                                                전부 다 줄게 Take my heart</br>
+                                                분명 우리는 Destiny</br>
+                                                빛이 나 이 밤 가득히</br>
+                                                달콤한 중독이 이런 건가 봐 Darling</br>
+                                                더 깊이 너에게 빠져가</br></br>
+
+                                                점점 더 두근대는 맘</br>
+                                                전부 다 줄게 Take my heart</br>
+                                                분명 넌 나의 Destiny</br>
+                                                빛이 나 내 맘 가득히</br>
+                                                아찔한 기분이 이런 건가 봐 Darling</br>
+                                                점점 더 난 네게 빠져가</br>
+                                                You attack my heart
+                                            </dd>
+                                            <button id="lyrics_control_button" class="lyrics_control_button" type="button" title="가사 더 보기" aria-label="가사 더 보기"><i class="fas fa-chevron-down"></i></button>
+                                        </div>
+                                    </dl>
+                                </div>
+                            </div>
+                             <!--album information-->
+                             <div id="album_information" class="info_detail_container" style="display: none;">
+                                <div class="info_detail_items_container">
+                                    <dl class="info_detail_items">
+                                        <div class="info_detail_item">
+                                            <dt>아티스트</dt>
+                                            <dd>이달의 소녀</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>앨범</dt>
+                                            <dd>Chuu</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>장르</dt>
+                                            <dd>댄스(국내)</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>발매</dt>
+                                            <dd>2017.12.28</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>발매사</dt>
+                                            <dd>(주)다날엔터테인먼트</dd>
+                                        </div>
+                                        <div class="info_detail_item info_detail_item_long_content">
+                                            <dt>소개</dt>
+                                            <dd>
+                                                마지막 멤버들을 향한 기대감. 새로운 유닛은 이브를 시작으로 열 번째 멤버 츄를 등장 시키며 이달의 소녀의 세계관에 새로운 긴장감을 불러일으킨다.</br></br>
+
+                                                이미 블록베리크리에이티브에 입사하기 전부터 유명 연습생이었던 지우가 츄가 되는 과정. 그리고 ‘너처럼 되고 싶던 내 맘이 너로 인해 가득 차’ 이브에게 사랑을 받고 싶어하는 어린 소녀의 감정을 싱글을 통해 담아냈다.</br>
+                                                에덴을 거부한 네 명의 소녀들이 모이면 파티가 시작된다.
+                                            </dd>
+                                        </div>
+                                        <div class="info_detail_item info_detail_item_long_content album_track_list_container">
+                                            <dt>수록곡</dt>
+                                            <dd>
+                                                <ol class="album_track_list">
+                                                    <li class="album_track_list_item">Heart Attack (츄)<span class="album_track_list_item_title"> TITLE</TITLE></span></li>
+                                                    <li class="album_track_list_item">Girl's Talk (이브, 츄)</li>
+                                                </ol>
+                                            </dd>
+                                        </div>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <footer>
+                    <div class="footer_container footer_container_backgroundColor_idalso">
+                        <a href="http://www.loonatheworld.com/" target="blank" title= "이달의 소녀 공식 홈페이지 바로가기" aria-label="이달의 소녀 공식 홈페이지 바로가기"><img class="footer_logo_image footer_logo_image_idalso" src="https://i.pinimg.com/originals/2a/20/46/2a2046ac1e0ad27509115bda2315a1cb.png" alt="logo_image"/></a>
+                        <div class="footer_SNS_company_website_container">
+                            <div class="footer_SNS_container">
+                                <dl class="footer_SNS_items">
+                                    <div class="footer_SNS_item">
+                                        <dt>트위터</dt>
+                                        <dd>
+                                            <a class="footer_SNS footer_SNS_twitter" href="https://twitter.com/loonatheworld" target="blank" aria-label="이달의 소녀(OH-MY-GRIL) 트위터"><i class="fab fa-twitter-square"></i></a>
+                                        </dd>
+                                    </div>
+                                    <div class="footer_SNS_item">
+                                        <dt>인스타그램</dt>
+                                        <dd>
+                                            <a class="footer_SNS footer_SNS_instagram" href="https://www.instagram.com/loonatheworld/" target="blank" aria-label="이달의 소녀(idalso) 인스타그램"><i class="fab fa-instagram"></i></a>
+                                        </dd>
+                                    </div>
+                                    <div class="footer_SNS_item">
+                                        <dt>페이스북</dt>
+                                        <dd>
+                                            <a class="footer_SNS footer_SNS_facebook" href="https://www.facebook.com/loonatheworld/ target="blank" aria-label="이달의 소녀(idalso) 페이스북"><i class="fab fa-facebook"></i></a>
+                                        </dd>
+                                    </div>
+                                    <div class="footer_SNS_item">
+                                        <dt>유튜브</dt>
+                                        <dd>
+                                            <a class="footer_SNS footer_SNS_youtube" href="https://www.youtube.com/channel/UCOJplhB0wGQWv9OuRmMT-4g" target="blank" aria-label="이달의 소녀(idalso) 유튜브"><i class="fab fa-youtube"></i></a>
+                                        </dd>
+                                    </div>
+                                    <div class="footer_SNS_item">
+                                        <dt>V-live</dt>
+                                        <dd>
+                                            <a class="footer_SNS footer_SNS_vLive" href="https://www.vlive.tv/channel/E1F3A7" target="blank" aria-label="이달의 소녀(idalso) V-live"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/VLive_LOGO.png" alt="v-live logo"/></a>
+                                        </dd>
+                                    </div>
+                                </dl>
+                            </div>
+                            <div class="footer_company_website_container">
+                                <span>(주)블록베리크리에이티브</span>
+                                <a href="http://www.blockberrycreative.com/" target="blank" aria-label="소속사 홈페이지 바로가기">http://www.planaent.co.kr/</a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script type="text/javascript" charset="UTF-8" src="이달의 소녀.js"></script>
+        <script type="text/javascript" charset="UTF-8" src="../autocomplete_search.js"></script>
+    </body>
+</html>

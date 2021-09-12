@@ -128,16 +128,22 @@ main {
 
 .song_title {
   display: block;
-  margin-bottom: 50px;
-  font-size: 28px;
+  margin: 0 auto;
+  padding: 25px 0;
+  width: 70%;
+  border-radius: 20px 20px 0 0;
+  font-size: 18px;
   text-align: center;
 }
 
 .youtube_mv {
   display: block;
   margin: 0 auto 50px auto;
+  padding: 20px 35px;
   width: 70%;
   height: 500px;
+  border-radius: 0 0 20px 20px;
+  background-color: white;
 }
 
 .info_container {
@@ -423,7 +429,9 @@ main {
   /*****main*****/
 
   .song_title {
-    font-size: 18px;
+    width: 90%;
+    padding: 16px 0;
+    font-size: 16px;
   }
 
   main {

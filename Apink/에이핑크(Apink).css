@@ -1,14 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 @font-face {
   font-family: "Cafe24Oneprettynight";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff")
-    format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "UhBeeQUEENJ";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeQUEENJ.woff")
     format("woff");
   font-weight: normal;
   font-style: normal;
@@ -41,7 +34,8 @@
 }
 
 .song_title_Apink_1 {
-  font-family: "UhBeeQUEENJ", sans-serif;
+  background-color: rgb(240, 196, 185);
+  font-family: "Quicksand", sans-serif;
 }
 
 .button_hover_backgroundColor_Apink :hover {

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie-edge" /><!--해당 브라우저의 최신 렌더링 모드로 작동하게 강제합니다-->
+        <link rel="stylesheet" href="../common.css"/>
+        <link rel="stylesheet" href="러블리즈.css"/>
+        <script src="https://kit.fontawesome.com/2884632ff3.js" crossorigin="anonymous"></script>
+        <title>Candy Jelly Love-러블리즈</title>
+    </head>
+    <body>
+        <div class="wrapper wrapper_Lovelyz">
+            <div class="content_wrapper">
+                <header>
+                    <div class="header_wrapper">
+                        <div class=header_container>
+                            <div id="topBar_container" class="topBar_container">
+                                <select id="search_option" class="search_option">
+                                    <option value="Artist">아티스트</option>
+                                    <option value="Title">제목</option>
+                                </select>
+                                <div class="searchArea_container">
+                                    <input id="search_input" class="search_input" type="text" placeholder="아티스트명으로 검색" spellcheck="false" autocomplete="off"/>
+                                    <div id="autocomplete_container" class="autocomplete_container">
+                                        <ul id="autocomplete_list" class="autocomplete_list">
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header_title_container">
+                                <img class="header_image_Lovelyz" src="https://data.ygosu.com/upload_files/board_stars/87854/590312c869189.png" alt="header_image"/>
+                                <img class="header_logo_Lovelyz" src="https://fanart.tv/api/download.php?type=download&image=213595&section=2" alt="logo_image"/>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <main>
+                    <div class="main_container">
+                        <h3 class="song_title song_title_Lovelyz_1">Candy Jelly Love</h3>
+                        <iframe class="youtube_mv" src="https://www.youtube.com/embed/HRQEs4vOIrY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="info_container">
+                            <div class="info_menu_container">
+                                <ul class="info_menu">
+                                    <li class="info_menu_item button_hover_backgroundColor_Lovelyz"><button id="song_information_button" class="selected_button_backgroundColor_Lovelyz info_menu_item_button" type="button">곡 정보</button></li>
+                                    <li class="info_menu_item button_hover_backgroundColor_Lovelyz"><button id="album_information_button" class="info_menu_item_button" type="button">수록 앨범</button></li>
+                                </ul>
+                            </div>
+                            <div class="info_detail_container">
+                                <!--song information-->
+                                <div id="song_information" class="info_detail_items_container">
+                                    <dl class="info_detail_items">
+                                        <div class="info_detail_item">
+                                            <dt>아티스트</dt>
+                                            <dd>러블리즈</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>앨범</dt>
+                                            <dd>Girls' Invasion</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>장르</dt>
+                                            <dd>발라드(국내)</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>작곡</dt>
+                                            <dd>1Piece</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>작사</dt>
+                                            <dd>김이나</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>편곡</dt>
+                                            <dd>1Piece</dd>
+                                        </div>
+                                        <div class="info_detail_item info_detail_item_long_content">
+                                            <dt>가사</dt>
+                                            <dd id="lyrics" class="hidden_lyrics">
+                                                구슬처럼 귀에서 자꾸 맴돌아요</br>
+                                                달콤한 그 말을 굴리다</br>
+                                                입에서 후 하면 향긋한 향기가 불어와요</br>
+                                                유리처럼 투명한 그 맘이 좋아요</br>
+                                                첫눈처럼 깨끗해요</br>
+                                                말로써 표현을 하자니 그대의 사랑이 그래요</br>
+                                                우리 어디까지 갈는지</br>
+                                                어떻게 될 건지 나는 몰라도</br>
+                                                겁먹진 않을래요</br>
+                                                Candy Jelly Love</br>
+                                                그대 마음 한 스푼을 담아 넣고서</br>
+                                                하얀 약속 한 웅큼을 담아 삼키면</br>
+                                                오늘 하루도 웃을 수 있어</br>
+                                                기분 좋은 얘기들만 말할 수 있어</br>
+                                                너무 너무 힘들면 많이 많이 슬프면</br>
+                                                그대 마음 몇 스푼 더 넣으면 또 견딜 수 있어</br>
+                                                너무 너무 외로워 보고 싶은 날이면</br>
+                                                그대 사랑 한 방울 떨어뜨리면 행복이 번져</br>
+                                                흐린 날엔 그대의 이름을 불러요</br>
+                                                햇살도 부럽지 않아요</br>
+                                                오늘도 나 밖엔 없다고 말할 것만 같아서</br>
+                                                그대 없는 겨울이 저만큼 왔네요</br>
+                                                그래도 난 괜찮아요</br>
+                                                그대를 품은 내 마음은 언제나 봄처럼 따뜻해</br>
+                                                날 얼마나 기억 할는지</br>
+                                                그대도 나만큼 일진 몰라도</br>
+                                                겁먹진 않을래요</br>
+                                                Candy Jelly Love</br>
+                                                그대 마음 한 스푼을 담아 넣고서</br>
+                                                하얀 약속 한 웅큼을 담아 삼키면</br>
+                                                오늘 하루도 웃을 수 있어</br>
+                                                기분 좋은 얘기들만 말할 수 있어</br>
+                                                너무 너무 힘들면 많이 많이 슬프면</br>
+                                                그대 마음 몇 스푼 더 넣으면 또 견딜 수 있어</br>
+                                                너무 너무 외로워 보고 싶은 날이면</br>
+                                                그대 사랑 한 방울 떨어뜨리면 행복이 번져</br>
+                                                You’re the best ever come in my life</br>
+                                                You’re the best of my life</br>
+                                                You 내 생애 제일 좋은 시간 속에</br>
+                                                내가 최고로 기억할 사람 이미 정해진 한 사람</br>
+                                                달콤한 꿈을 꿔요</br>
+                                                우리 둘이 한 얘기 간질간질한 얘기</br>
+                                                나만 아는 그 얘기 생각하면서 잠이 들어요</br>
+                                                우리 둘이 못 다한 끝나지 않은 얘기</br>
+                                                언젠가는 그대와 다 나눌거라 나는 믿어요
+                                            </dd>
+                                            <button id="lyrics_control_button" class="lyrics_control_button" type="button" title="가사 더 보기" aria-label="가사 더 보기"><i class="fas fa-chevron-down"></i></button>
+                                        </div>
+                                    </dl>
+                                </div>
+                            </div>
+                             <!--album information-->
+                             <div id="album_information" class="info_detail_container" style="display: none;">
+                                <div class="info_detail_items_container">
+                                    <dl class="info_detail_items">
+                                        <div class="info_detail_item">
+                                            <dt>아티스트</dt>
+                                            <dd>러블리즈</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>앨범</dt>
+                                            <dd>Girls' Invasion</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>장르</dt>
+                                            <dd>발라드(국내)</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>발매</dt>
+                                            <dd>2014.11.17</dd>
+                                        </div>
+                                        <div class="info_detail_item">
+                                            <dt>발매사</dt>
+                                            <dd>카카오엔터테이먼트</dd>
+                                        </div>
+                                        <div class="info_detail_item info_detail_item_long_content">
+                                            <dt>소개</dt>
+                                            <dd>
+                                                울림 엔터테인먼트의 첫 번째 걸 그룹- 러블리즈가 데뷔 앨범 [Girls’ Invasion]을 발표했다.</br>
+                                                K-POP에서 가장 존경 받는 작곡가 윤상이 생애 처음으로 맡은 걸그룹의 앨범으로 알려지며 발매 전부터 앨범의 퀄리티에 대해 주목 받은 러블리즈의 생애 첫 데뷔 앨범 [Girl’s Invasion]이 공개되었다.</br></br>
+
+                                                타이틀 곡 ‘Candy Jelly Love’는 음악만 들어도 캔디, 젤리 같은 달콤한 맛들이 느껴지는 곡이다. 윤상 본인은 “음악이 아니라 마치 달콤한 음식을 만들 듯 사운드의 하나하나를 세심히 골랐다”고 작업을 설명했고 그 결과 러블리즈라는 사랑스러운 그룹에 딱 맞는 데뷔 곡이 완성되었다. ‘Candy Jelly Love’의 뮤직비디오는 DigiPedi가 연출을 맡아 교실을 배경으로 러블리즈만의 독특하고 엉뚱한 매력을 화면에 담아냈다.
+                                            </dd>
+                                        </div>
+                                        <div class="info_detail_item info_detail_item_long_content album_track_list_container">
+                                            <dt>수록곡</dt>
+                                            <dd>
+                                                <ol class="album_track_list">
+                                                    <li class="album_track_list_item">Introducing The Candy</li>
+                                                    <li class="album_track_list_item">Candy Jelly Love<span class="album_track_list_item_title"> TITLE</TITLE></span></li>
+                                                    <li class="album_track_list_item">어제처럼 굿나잇</li>
+                                                    <li class="album_track_list_item">이별 Chapter 1</li>
+                                                    <li class="album_track_list_item">비밀여행</li>
+                                                    <li class="album_track_list_item">남보다 못한 사이 (Babysoul Solo) (Feat. 휘성)</li>
+                                                    <li class="album_track_list_item">그녀는 바람둥이야 (Babysoul & Kei) (Feat. 동우 of 인피니트)</li>
+                                                    <li class="album_track_list_item">신기하죠</li>
+                                                    <li class="album_track_list_item">Delight (Yoo Ji-Ae Solo)</li>
+                                                    <li class="album_track_list_item">너만 없다 (Jin Solo)</li>
+                                                </ol>
+                                            </dd>
+                                        </div>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <footer>
+                    <div class="footer_container footer_container_backgroundColor_Lovelyz">
+                        <a href="http://lvlz8.com/" target="blank" title= "러블리즈(Lovelyz) 공식 홈페이지 바로가기" aria-label="러블리즈(Lovelyz) 공식 홈페이지 바로가기"><img class="footer_logo_image footer_logo_image_Lovelyz" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/df459f30-12ef-4036-9369-97044b1564ef/d8pc9fu-cc015691-7f10-49aa-8b7e-0c139da1b531.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZGY0NTlmMzAtMTJlZi00MDM2LTkzNjktOTcwNDRiMTU2NGVmXC9kOHBjOWZ1LWNjMDE1NjkxLTdmMTAtNDlhYS04YjdlLTBjMTM5ZGExYjUzMS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.MeSOPudPpgBT0y2Twp3KXkVN54OKR9r4qGpfUjRr-vw" alt="logo_image"/></a>
+                        <div class="footer_SNS_company_website_container">
+                            <div class="footer_SNS_container">
+                                <dl class="footer_SNS_items">
+                                    <div class="footer_SNS_item">
+                                        <dt>트위터</dt>
+                                        <dd>
+                                            <a class="footer_SNS footer_SNS_twitter" href="https://twitter.com/Official_LVLZ" target="blank" aria-label="러블리즈(Lovelyz) 트위터"><i class="fab fa-twitter-square"></i></a>
+                                        </dd>
+                                    </div>
+                                    <div class="footer_SNS_item">
+                                        <dt>인스타그램</dt>
+                                        <dd>
+                                            <a class="footer_SNS footer_SNS_instagram" href="https://www.instagram.com/official_lvlz8_/" target="blank" aria-label="러블리즈(Lovelyz) 인스타그램"><i class="fab fa-instagram"></i></a>
+                                        </dd>
+                                    </div>
+                                    <div class="footer_SNS_item">
+                                        <dt>페이스북</dt>
+                                        <dd>
+                                            <a class="footer_SNS footer_SNS_facebook" href="https://www.facebook.com/lvlz8" target="blank" aria-label="러블리즈(Lovelyz) 페이스북"><i class="fab fa-facebook"></i></a>
+                                        </dd>
+                                    </div>
+                                    <div class="footer_SNS_item">
+                                        <dt>유튜브</dt>
+                                        <dd>
+                                            <a class="footer_SNS footer_SNS_youtube" href="https://www.youtube.com/channel/UCtF9Njo6rLI8U2ZrJ_cFzHQ" target="blank" aria-label="러블리즈(Lovelyz) 유튜브"><i class="fab fa-youtube"></i></a>
+                                        </dd>
+                                    </div>
+                                    <div class="footer_SNS_item">
+                                        <dt>V-live</dt>
+                                        <dd>
+                                            <a class="footer_SNS footer_SNS_vLive" href="https://www.vlive.tv/channel/FB183" target="blank" aria-label="러블리즈(Lovelyz) V-live"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/VLive_LOGO.png" alt="v-live logo"/></a>
+                                        </dd>
+                                    </div>
+                                </dl>
+                            </div>
+                            <div class="footer_company_website_container">
+                                <span>울림엔터테이먼트</span>
+                                <a href="http://www.woolliment.com/" target="blank" aria-label="소속사 홈페이지 바로가기">http://www.woolliment.com/</a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script type="text/javascript" charset="UTF-8" src="러블리즈.js"></script>
+        <script type="text/javascript" charset="UTF-8" src="../autocomplete_search.js"></script>
+    </body>
+</html>
